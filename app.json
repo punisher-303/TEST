@@ -1,0 +1,34 @@
+{
+  "name": "Vega",
+  "displayName": "Vega",
+  "expo": {
+    "name": "Vega",
+    "displayName": "Vega",
+    "autolinking": {
+      "exclude": ["expo-splash-screen"]
+    },
+    "plugins": [
+      ["react-native-bootsplash", {"assetsDir": "assets/bootsplash"}],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": [
+              "../../node_modules/@notifee/react-native/android/libs"
+            ]
+          },
+          "ios": {}
+        }
+      ]
+    ],
+    "slug": "vega",
+    "version": "9.5.7",
+    "sdkVersion": "51.0.0",
+    "android": {
+      "minSdkVersion": 24,
+      "package": "com.doodle.movies",
+      "versionCode": 129
+    },
+    "platforms": ["ios", "android"]
+  }
+}
